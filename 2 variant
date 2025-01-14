@@ -1,0 +1,100 @@
+
+//for (int i = 11; i <= 33; i++)
+//{
+//    if (i % 2 == 0)
+//    {
+//        Console.WriteLine(i);
+//    }
+//}
+
+//int i = 11;
+//do
+//{
+//    if (i % 2 == 0)
+//    {
+//        Console.WriteLine(i);
+//    }
+//    i++;
+//}
+//while (i <= 33);
+
+
+//int number = 0;
+//int suma = 0;
+//while (true)
+//{   
+//    number = int.Parse(Console.ReadLine());
+//    if (number == 0)
+//    {
+//        break;
+//    }
+
+//    suma += number;
+//}
+//Console.WriteLine("sumata e: " + suma);
+
+//for (double i = 12; i >= 6 ; i -= 0.5)
+//{
+//    Console.Write(i + ", ");
+//}
+
+//for (int i = 1; i <= 10; i++)
+//{
+//    int result = 8 * i;
+//    Console.WriteLine($"8 * {i} = {result}");
+//}
+
+
+//int n = int.Parse(Console.ReadLine());
+//if (n < 15 || n > 40) { return; }
+
+//int suma = 0;
+//int proizvedenie = 1;
+
+//for (int i = 1; i <= n; i+=6)
+//{
+//    suma += i;
+//    proizvedenie *= i;
+//    Console.WriteLine($"i = {i}, suma = {suma}, proizvedenie = {proizvedenie}");
+//}
+//Console.WriteLine($"Kraina suma: {suma}");
+//Console.WriteLine($"Kraino proizvedenie: {proizvedenie}");
+
+
+//int sumaEven = 0;
+//int multiplicationOdd = 1;
+
+//for (int i = 10; i <= 25; i++)
+//{
+//    if (i % 2 == 0)
+//    {
+//        sumaEven += i;
+//    }
+//    else
+//    {
+//        multiplicationOdd *= i;
+//    }
+//    Console.WriteLine($"Chislo: {i}, Suma na chetnite: {sumaEven}, proizvedenie na nechetnite: {multiplicationOdd}");
+//}
+//Console.WriteLine($"Kraina suma: {sumaEven}.");
+//Console.WriteLine($"Kraino proizvedenie: {multiplicationOdd}.");
+
+
+   //int n = int.Parse(Console.ReadLine());
+
+   //         int a = 0;
+   //         int b = 1;
+   //         int count = 0;
+
+   //        while (count < 7)
+   //         {
+   //             int c = a + b;
+   //             if (c > n)
+   //             {
+   //                 Console.Write(c + " ");
+   //                 count++;
+   //             }
+   //             a = b;
+   //             b = c;
+   //         }
+        
