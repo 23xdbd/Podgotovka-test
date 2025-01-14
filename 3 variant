@@ -1,0 +1,94 @@
+
+//for (int i = 34; i <= 66; i += 2)
+//{
+//    Console.WriteLine(i);
+//}
+
+//int i = 34;
+//do
+//{
+//    Console.WriteLine(i);
+//    i += 2;
+//} while (i <= 66);
+
+//int number, sum = 0;
+//do
+//{
+//    number = int.Parse(Console.ReadLine());
+//    sum += number;
+//} while (number != 0);
+
+//Console.WriteLine("sumata e: " + sum);
+
+
+//for (double i = 33; i >= 26; i -= 0.25)
+//{
+//    Console.Write(i + ", ");
+//}
+
+//for (int i = 1; i <= 10; i++)
+//{
+//    int result = 4 * i;
+//    Console.WriteLine($"4 * {i} = {result}");
+//}
+
+
+//int n = int.Parse(Console.ReadLine());
+
+//if (n < 30 || n > 80)
+//{
+//    Console.WriteLine("Invalid number");
+//    return;
+//}
+
+//int sum = 0;
+//int multiplication = 1;
+
+//for (int i = 1; i <= n; i += 11)
+//{
+//    sum += i;
+//    multiplication *= i;
+//    Console.WriteLine($"i = {i}, suma = {sum}, proizvedenie = {multiplication}");
+//}
+
+//Console.WriteLine($"kraina suma: {sum}");
+//Console.WriteLine($"kraino proizvedenie: {multiplication}");
+
+
+//int sumOdd = 0;
+//int productEven = 1;
+
+//for (int i = 3; i <= 18; i++)
+//{
+//    if (i % 2 != 0)
+//    {
+//        sumOdd += i;
+//    }
+//    else
+//    {
+//        productEven *= i;
+//    }
+
+//    Console.WriteLine($"i = {i}: Odd suma = {sumOdd}, even product = {productEven}");
+//}
+
+//Console.WriteLine($"Kraina suma: {sumOdd}");
+//Console.WriteLine($"Kraen product: {productEven}");
+
+//int n = int.Parse(Console.ReadLine());
+
+//int a = 0;
+//int b = 1;
+//int count = 0;
+
+//while (count < 7)
+//{
+//    int c = a + b;
+//    if (c > n)
+//    {
+//        Console.Write(c + " ");
+//        count++;
+//    }
+//    a = b;
+//    b = c;
+//}
